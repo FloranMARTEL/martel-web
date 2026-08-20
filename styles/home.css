@@ -1,0 +1,58 @@
+.intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro img, svg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE/Edge */
+    user-select: none;
+    /* Standard */
+    -webkit-user-drag: none;
+    /* Empêche le glisser-déposer */
+    pointer-events: none;
+    /* Désactive les clics et interactions */
+}
+
+.intro .anvil {
+    transform: translate(3%, 0%);
+    position: relative;
+}
+
+.intro .iron {
+    top: -30px;
+    left: 50%;
+}
+
+.intro .blazon_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.intro .hamer.one {
+    transform: scale(-1, 1) translate(200%, -101%);
+}
+
+
+.intro .hamer.two {
+    transform: scale(-1, 1) translate(-100%, -101%);
+}
+
+
+.intro .hamer.three {
+    transform: translate(-40%, -23%);
+}
+
+#text-shape {
+  visibility: hidden;
+}
