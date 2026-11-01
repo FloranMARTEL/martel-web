@@ -1,7 +1,9 @@
-:root{
-    --red : #C70909
+:root {
+    --red: #C70909
 }
 
-body{
-    background-color: var(--red);   
+body {
+    background-color: var(--red);
+    height: 100vh;
+    width: 100vw;
 }

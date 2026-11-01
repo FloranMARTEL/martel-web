@@ -91,10 +91,14 @@ function targetImpact(target) {
         Math.min(MARTELWEBANIM.progress() + 0.02, 1)
     );
 
+    console.log("MARTELWEBANIM.progress()",MARTELWEBANIM.progress())
     if (MARTELWEBANIM.progress() == 1){
-        const my_iron = document.querySelector(".iron")
+        const my_iron = document.querySelector("body")
+        my_iron
+        console.log(my_iron)
         my_iron.addEventListener("click",()=>{
-            window.location.href = "animeprofile.martel-web.de";
+            console.log("ici2")
+            window.location.href = "https://animeprofile.martel-web.de";
         })
     }
 }
