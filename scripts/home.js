@@ -90,6 +90,13 @@ function targetImpact(target) {
     MARTELWEBANIM.progress(
         Math.min(MARTELWEBANIM.progress() + 0.02, 1)
     );
+
+    if (MARTELWEBANIM.progress() == 1){
+        const my_iron = document.querySelector(".iron")
+        my_iron.addEventListener("click",()=>{
+            window.location.href = "animeprofile.martel-web.de";
+        })
+    }
 }
 
 tl.impact = () => {
